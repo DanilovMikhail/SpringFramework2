@@ -1,0 +1,31 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+    <nav th:fragment="navbarActive" class="main_nav">
+        <ul>
+            <li class="hassubs active">
+                <a th:href="@{/}">Home</a>
+                <ul>
+                    <li><a th:href="@{/categories}">Categories</a></li>
+                    <li><a th:href="@{/product}">Product</a></li>
+                    <li><a th:href="@{/cart}">Cart</a></li>
+                    <li><a th:href="@{/checkout}">Check out</a></li>
+                    <li><a th:href="@{/contact}">Contact</a></li>
+                </ul>
+            </li>
+            <li class="hassubs">
+                <a th:href="@{/categories}">Categories</a>
+                <ul>
+                    <li><a th:href="@{/categories}">Category</a></li>
+                    <li><a th:href="@{/categories}">Category</a></li>
+                    <li><a th:href="@{/categories}">Category</a></li>
+                    <li><a th:href="@{/categories}">Category</a></li>
+                    <li><a th:href="@{/categories}">Category</a></li>
+                </ul>
+            </li>
+            <li><a th:href="@{/}">Accessories</a></li>
+            <li><a th:href="@{/}">Offers</a></li>
+            <li><a th:href="@{/contact}">Contact</a></li>
+        </ul>
+    </nav>
+
+</html>

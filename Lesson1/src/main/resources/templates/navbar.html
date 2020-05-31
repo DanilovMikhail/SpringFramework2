@@ -1,0 +1,28 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<nav th:fragment="navbar">
+    <ul class="page_menu_nav menu_mm">
+        <li class="page_menu_item has-children menu_mm">
+            <a th:href="@{/}">Home<i class="fa fa-angle-down"></i></a>
+            <ul class="page_menu_selection menu_mm">
+                <li class="page_menu_item menu_mm"><a th:href="@{/categories}">Categories<i class="fa fa-angle-down"></i></a></li>
+                <li class="page_menu_item menu_mm"><a th:href="@{/product}">Product<i class="fa fa-angle-down"></i></a></li>
+                <li class="page_menu_item menu_mm"><a th:href="@{/cart}">Cart<i class="fa fa-angle-down"></i></a></li>
+                <li class="page_menu_item menu_mm"><a th:href="@{/checkout}">Checkout<i class="fa fa-angle-down"></i></a></li>
+                <li class="page_menu_item menu_mm"><a th:href="@{/contact}">Contact<i class="fa fa-angle-down"></i></a></li>
+            </ul>
+        </li>
+        <li class="page_menu_item has-children menu_mm">
+            <a th:href="@{/categories}">Categories<i class="fa fa-angle-down"></i></a>
+            <ul class="page_menu_selection menu_mm">
+                <li class="page_menu_item menu_mm"><a th:href="@{/categories}">Category<i class="fa fa-angle-down"></i></a></li>
+                <li class="page_menu_item menu_mm"><a th:href="@{/categories}">Category<i class="fa fa-angle-down"></i></a></li>
+                <li class="page_menu_item menu_mm"><a th:href="@{/categories}">Category<i class="fa fa-angle-down"></i></a></li>
+                <li class="page_menu_item menu_mm"><a th:href="@{/categories}">Category<i class="fa fa-angle-down"></i></a></li>
+            </ul>
+        </li>
+        <li class="page_menu_item menu_mm"><a th:href="@{/}">Accessories<i class="fa fa-angle-down"></i></a></li>
+        <li class="page_menu_item menu_mm"><a th:href="@{/}">Offers<i class="fa fa-angle-down"></i></a></li>
+        <li class="page_menu_item menu_mm"><a th:href="@{/contact}">Contact<i class="fa fa-angle-down"></i></a></li>
+    </ul>
+</nav>
